@@ -1,4 +1,4 @@
-name: price_pulse
+name: price_pulse9
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -10,7 +10,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # Both the version and the builder number may be overridden in flutter
 # build by specifying --build-name and --build-number, respectively.
 # In Android, build-name is used as versionName while build-number used as versionCode.
-# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# Read more about Android versioning at https://developer.apple.com/studio/publish/versioning
 # In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
@@ -33,6 +33,7 @@ dependencies:
   firebase_core: ^3.14.0
   cloud_firestore: ^5.6.9
   intl: ^0.19.0
+  url_launcher: ^6.3.0 # Add this line to include the url_launcher package
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -65,7 +66,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-# This was referenced in your main.dart. If you have a different image named 'Group 5.png' for the app icon, keep both or adjust main.dart.
+    # This was referenced in your main.dart. If you have a different image named 'Group 5.png' for the app icon, keep both or adjust main.dart.
     - assets/Group 5.png
     - assets/Group 7.png
 
